@@ -23,13 +23,5 @@ public class CalculatorServiceTest {
         assertEquals(4, new CalculatorService().Sub(12, 8).getResult());
     }
 
-    @Test
-    public void testMul() {
-        assertEquals(88, new CalculatorService().Mul(11, 8).getResult());
-    }
 
-    @Test
-    public void testDiv() {
-        assertEquals(1, new CalculatorService().Div(12, 12).getResult());
-    }
 }
